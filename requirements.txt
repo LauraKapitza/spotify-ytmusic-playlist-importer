@@ -1,0 +1,4 @@
+spotipy
+dotenv
+urllib3<2
+ytmusicapi
