@@ -56,19 +56,14 @@ SPOTIPY_REDIRECT_URI="http://localhost:8888/callback/"
     }
    ```
 
-## Execute the Scripts
+## Execute the Script
 
-Once the setup is complete, you can execute the export script with the following command:
+Once the setup is complete, you can execute the script with the following command:
 ```bash
-python3 spotify_playlists_exporter.py
+python3 main.py
 ```
 
 The script may take a while depending on the number and size of playlists.
-
-When the export has finished, you can execute the import with the following command:
-```bash
-python3 ytmusic_playlists_importer.py
-```
 
 When execution finishes, you'll see a message in the terminal indicating that the import has completed.
 If the script cannot find a song in YouTube Music, it will publish a warning message in the terminal.
