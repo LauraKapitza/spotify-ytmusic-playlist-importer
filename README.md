@@ -16,8 +16,9 @@ This tool allows you to migrate your playlists and liked songs from Spotify to Y
 
 ## Install Requirements
 
-Execute the following command to install all requirements:
+Execute the following commands to build the project and install all requirements:
 ```bash
+pip install -e .
 pip install -r requirements.txt
 ```
 

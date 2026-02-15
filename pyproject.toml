@@ -1,0 +1,16 @@
+[project]
+name = "spotify-ytmusic-importer"
+version = "0.1.0"
+dependencies = [
+    "spotipy>=2.23.0",
+    "ytmusicapi>=1.0.0",
+    "python-dotenv",
+    "urllib3<2"
+]
+
+[project.optional-dependencies]
+dev = ["pytest", "black", "ruff"]
+test = ["pytest"]
+
+[tool.setuptools]
+packages = ["clients", "utils"]
